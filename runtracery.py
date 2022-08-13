@@ -1,6 +1,7 @@
 #!/usr/local/bin/python3
 import argparse
 import json
+import random
 import tracery
 from tracery.modifiers import base_english
 
@@ -33,6 +34,9 @@ def make_tracery(rules):
 
 if __name__ == "__main__":
     args = parser.parse_args()
-    json = read_json_file(args.grammar)
-    rendered_grammar = make_tracery(json).flatten(args.start)
-    print(rendered_grammar)
+    if random.random() < 0.01:
+        print("WAT")
+    else:
+        json = read_json_file(args.grammar)
+        rendered_grammar = make_tracery(json).flatten(args.start)
+        print(rendered_grammar)
