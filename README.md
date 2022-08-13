@@ -1,14 +1,20 @@
-# prompt_generator
+# obliquie-strategies-bot
 
-Procedurally generated Oblique Strategies for writing your own Oblique Strategies.
+Yo dawg, we heard you like procedurally generated oblique strategies, so we put some procedural generation in your oblique strategies 
+
+Forked from <https://github.com/gordonbrander/prompt_generator>.
 
 See <https://subconscious.substack.com/p/prompt-generator>.
 
 ## How to use it
 
-Close your eyes.  
-Take a deep breath.  
-Ready?
+Close your eyes.
+
+Would a shower help clear things up?
+
+Partition your thoughts into two bins.
+
+Prepare your anus.
 
 Run the script.
 
@@ -18,34 +24,40 @@ Now, receive the prompt and ask yourself... in what ways might I expand it? Try 
 - What examples, anecdotes can you include?
 - Can you expand on the prompt with a "why" explanation?
 
-## Installing
+## Install
 
-Requirements: Python 3.7, Pip, .
+Requirements: Python 3.x, Pip, all that jazz
 
 To clone the repository and install the dependencies:
 
 ```
-git clone https://github.com/gordonbrander/prompt_generator.git
-cd prompt_generator
-pip3 install -r requirements.txt
+git clone https://github.com/charlesreid1/oblique-strategies
+cd oblique-stragies
 ```
 
-## Running
+Make a virutal environment (optional):
+
+```
+python -m virtualenv -p python3.7 .virtualenv
+source .virtualenv/bin/activate
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+## Run
 
 From the `prompt_generator` directory:
 
 ```
-./runtracery.py grammars/prompt.json
-```
-
-Or alternatively:
-
-```
-python3 ./runtracery.py ./grammars/prompt.json
+python runtracery.py grammars/prompt.json
 ```
 
 This will print a prompt on the console, such as...
 
 ```
-A either/or prompt to make an analogy to another field (religion, space, music)
+Wat?
 ```
