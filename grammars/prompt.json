@@ -47,7 +47,12 @@
     "#exapt_sentence#",
     "#backwards_sentence#",
     "#subtract_sentence#",
-    "#sensory_sentence#"
+    "#sensory_sentence#",
+    "#paradox_sentence#",
+    "#scale_sentence#",
+    "#metaphor_sentence#",
+    "#emotional_sentence#",
+    "#persona_sentence#"
   ],
   "combine_sentence": [
     "Can you merge #factor.lowercase.s#?",
@@ -109,6 +114,54 @@
     "Translate the problem into a #sense#.",
     "If this were a #sense#, what would it be?",
     "Mute the #sense#. What does the structure look like now?"
+  ],
+  "paradox_sentence": [
+    "Make it #attribute.lowercase#, yet #attribute.lowercase#.",
+    "How can it be simultaneously #descriptive_attribute# and #descriptive_attribute#?",
+    "Embrace the contradiction. What is the exact opposite of the core #factor.lowercase#? Do both."
+  ],
+  "scale_sentence": [
+    "If this had to be completed in 10 minutes, what would you do?",
+    "If this took 100 years to mature, how would the design change?",
+    "Imagine it must fit inside a matchbox. What gets discarded?",
+    "Imagine it is the size of a city. What new #structure.lowercase# emerges?"
+  ],
+  "metaphor_sentence": [
+    "Treat the subject like a machine. Which gear is broken?",
+    "If your subject was a mythical creature, what would its weakness be?",
+    "What would this look like if it were a religion?",
+    "Describe the subject as if it were a weather pattern."
+  ],
+  "emotional_sentence": [
+    "What would make this #emotion#?",
+    "Design for #emotion#. How does it change the #factor.lowercase#?",
+    "Remove all #emotion# from the #process.lowercase#."
+  ],
+  "emotion": [
+    "joy",
+    "doubt",
+    "nostalgia",
+    "confusion",
+    "indifference",
+    "serenity",
+    "anger",
+    "anticipation",
+    "expectation",
+    "grief"
+  ],
+  "persona_sentence": [
+    "How would a #archetype# approach this?",
+    "What advice would a #archetype# give you right now?",
+    "Design this exclusively for a #archetype#."
+  ],
+  "archetype": [
+    "trickster",
+    "sage",
+    "general",
+    "dragon",
+    "cat",
+    "detective",
+    "magician"
   ],
   "sense": [
     "sound",
