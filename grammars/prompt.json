@@ -1,24 +1,23 @@
 {
   "start": [
-    "A #prompt_type# to #scamper.lowercase# #factor#",
-    "A #prompt_type# to #scamper.lowercase# #attribute#",
+    "A #prompt_type# to #scamper# #factor#",
+    "A #prompt_type# to #scamper# #attribute#",
     "A #prompt_type# to make an analogy to #analogy#",
     "#prompt#",
     "#prompt#"
   ],
   "prompt_type": [
     "provocation",
-    "question prompt",
-    "either/or prompt"
+    "prompt"
   ],
   "scamper": [
-    "Substitute",
-    "Combine",
-    "Adapt/Adjust",
-    "Modify/Magnify/Minify",
-    "Put to other uses",
-    "Eliminate",
-    "Reverse/Rearrange"
+    "substitute",
+    "combine",
+    "adapt/adjust",
+    "modify/magnify/minify",
+    "put to other uses",
+    "eliminate",
+    "reverse/rearrange"
   ],
   "analogy": [
     "another field (#field#, #field#, #field#)",
