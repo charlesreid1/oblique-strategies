@@ -52,7 +52,11 @@
     "#scale_sentence#",
     "#metaphor_sentence#",
     "#emotional_sentence#",
-    "#persona_sentence#"
+    "#persona_sentence#",
+    "#focus_sentence#",
+    "#destruction_sentence#",
+    "#constraint_sentence#",
+    "#repetition_sentence#"
   ],
   "combine_sentence": [
     "Can you merge #factor.lowercase.s#?",
@@ -163,6 +167,31 @@
     "detective",
     "magician"
   ],
+  "focus_sentence": [
+    "Focus entirely on the most insignificant #factor.lowercase#. Make it the centerpiece.",
+    "Zoom out until the #factor.lowercase# is invisible. What remains?",
+    "Ignore the core #process.lowercase#. What is happening at the absolute periphery?",
+    "Identify the smallest moving part. How can it drive the entire #structure.lowercase#?"
+  ],
+  "destruction_sentence": [
+    "Destroy the most expensive #factor.lowercase#.",
+    "Introduce a fatal flaw to the #structure.lowercase#. How does the system adapt?",
+    "Cut the work in half. Burn the better half.",
+    "What would happen if you dropped this in water?"
+  ],
+  "constraint_sentence": [
+    "You are no longer allowed to use #factor.lowercase.s#.",
+    "Complete the task using only #descriptive_attribute.lowercase# materials.",
+    "You must incorporate a #nature.lowercase# into the final design.",
+    "The solution must be easily explainable to a dog.",
+    "Design the #process.lowercase# so it can be executed in complete darkness."
+  ],
+  "repetition_sentence": [
+    "Repeat the last action 100 times.",
+    "Find a pattern in the #process.lowercase#. Break it with a stutter.",
+    "Loop the #factor.lowercase# until it loses all meaning.",
+    "Create an infinite loop of #relation.lowercase.s#."
+  ],
   "sense": [
     "sound",
     "flavor",
@@ -244,7 +273,16 @@
     "hero",
     "villain",
     "others",
-    "yourself"
+    "yourself",
+    "a stranger",
+    "your worst enemy",
+    "a historian 500 years from now",
+    "a jury",
+    "an alien",
+    "a committee of children",
+    "a ghost",
+    "an accountant",
+    "a saboteur"
   ],
   "purpose": [
     "purpose",
