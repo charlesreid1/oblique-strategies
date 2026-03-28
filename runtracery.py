@@ -32,11 +32,17 @@ def make_tracery(rules):
     return grammar
 
 
+def zen(s):
+    print("\n\n")
+    print(s)
+    print("\n\n")
+
+
 if __name__ == "__main__":
     args = parser.parse_args()
     if random.random() < 0.01:
-        print("WAT")
+        zen("WAT")
     else:
         json = read_json_file(args.grammar)
         rendered_grammar = make_tracery(json).flatten(args.start)
-        print(rendered_grammar)
+        zen(rendered_grammar)
