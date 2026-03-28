@@ -40,7 +40,23 @@
     "#adapt_sentence#",
     "#modify_sentence#",
     "#put_sentence#",
-    "#rearrange_sentence#"
+    "#rearrange_sentence#",
+    "#rule_sentence#",
+    "#exaggerate_sentence#",
+    "#invert_sentence#",
+    "#exapt_sentence#",
+    "#backwards_sentence#",
+    "#subtract_sentence#",
+    "#sensory_sentence#",
+    "#paradox_sentence#",
+    "#scale_sentence#",
+    "#metaphor_sentence#",
+    "#emotional_sentence#",
+    "#persona_sentence#",
+    "#focus_sentence#",
+    "#destruction_sentence#",
+    "#constraint_sentence#",
+    "#repetition_sentence#"
   ],
   "combine_sentence": [
     "Can you merge #factor.lowercase.s#?",
@@ -62,6 +78,128 @@
     "What other #structure.lowercase# might be better?",
     "Can you rearrange the #structure.lowercase#?",
     "Can you make #list.lowercase.a# of the #structure#?"
+  ],
+  "rule_sentence": [
+    "Break a rule.",
+    "What are the rules you're playing by? Make a list of the explicit and implicit rules at play.",
+    "What small modification to a rule would create dramatic change?",
+    "Simple rules produce complex behavior. Where can you combine rules to make them simple?",
+    "Take the rules and invert them to create something new."
+  ],
+  "exaggerate_sentence": [
+    "Exaggerate a rule until it becomes the subject.",
+    "Exaggerate #factor.lowercase.a# until it breaks. What do you learn?",
+    "What if you pushed #attribute.lowercase# to its absolute logical extreme?"
+  ],
+  "invert_sentence": [
+    "What is most appealing about the subject? Can you invert it?",
+    "What expectations do others have? Can you flip them inside-out?",
+    "Reverse figure and ground. Can you change the problem definition so that the subject becomes the context and the context becomes the subject?",
+    "What about the relationships involved? Can you reverse them? What if #people.lowercase.s# became #people.lowercase.s#?"
+  ],
+  "exapt_sentence": [
+    "Can you apply these rules in a different space? Which rules are generalizable?",
+    "What is around you that you can exapt?",
+    "In what ways can you exapt features from your subject to new ends? Try coming up with 5 unexpected uses for #factor.lowercase.a#.",
+    "Can you exapt features from something else? Ideas from #people.lowercase#? Infrastructure from somewhere else?"
+  ],
+  "backwards_sentence": [
+    "Start from the end and work backwards to now.",
+    "Imagine the end state. Describe it in a sentence. How do we get there from now?",
+    "What is the final #process_attribute#? What must immediately precede it?"
+  ],
+  "subtract_sentence": [
+    "What can you safely remove? Remove it.",
+    "Take away the most important #factor.lowercase#. What is left?",
+    "How would you achieve this with half the #factor.lowercase.s#?",
+    "Honor thy error as a hidden intention. What if the bug is actually the #factor.lowercase#?"
+  ],
+  "sensory_sentence": [
+    "Translate the problem into a #sense#.",
+    "If this were a #sense#, what would it be?",
+    "Mute the #sense#. What does the structure look like now?"
+  ],
+  "paradox_sentence": [
+    "Make it #attribute.lowercase#, yet #attribute.lowercase#.",
+    "How can it be simultaneously #descriptive_attribute# and #descriptive_attribute#?",
+    "Embrace the contradiction. What is the exact opposite of the core #factor.lowercase#? Do both."
+  ],
+  "scale_sentence": [
+    "If this had to be completed in 10 minutes, what would you do?",
+    "If this took 100 years to mature, how would the design change?",
+    "Imagine it must fit inside a matchbox. What gets discarded?",
+    "Imagine it is the size of a city. What new #structure.lowercase# emerges?"
+  ],
+  "metaphor_sentence": [
+    "Treat the subject like a machine. Which gear is broken?",
+    "If your subject was a mythical creature, what would its weakness be?",
+    "What would this look like if it were a religion?",
+    "Describe the subject as if it were a weather pattern."
+  ],
+  "emotional_sentence": [
+    "What would make this #emotion#?",
+    "Design for #emotion#. How does it change the #factor.lowercase#?",
+    "Remove all #emotion# from the #process.lowercase#."
+  ],
+  "emotion": [
+    "joy",
+    "doubt",
+    "nostalgia",
+    "confusion",
+    "indifference",
+    "serenity",
+    "anger",
+    "anticipation",
+    "expectation",
+    "grief"
+  ],
+  "persona_sentence": [
+    "How would a #archetype# approach this?",
+    "What advice would a #archetype# give you right now?",
+    "Design this exclusively for a #archetype#."
+  ],
+  "archetype": [
+    "trickster",
+    "sage",
+    "general",
+    "dragon",
+    "cat",
+    "detective",
+    "magician"
+  ],
+  "focus_sentence": [
+    "Focus entirely on the most insignificant #factor.lowercase#. Make it the centerpiece.",
+    "Zoom out until the #factor.lowercase# is invisible. What remains?",
+    "Ignore the core #process.lowercase#. What is happening at the absolute periphery?",
+    "Identify the smallest moving part. How can it drive the entire #structure.lowercase#?"
+  ],
+  "destruction_sentence": [
+    "Destroy the most expensive #factor.lowercase#.",
+    "Introduce a fatal flaw to the #structure.lowercase#. How does the system adapt?",
+    "Cut the work in half. Burn the better half.",
+    "What would happen if you dropped this in water?"
+  ],
+  "constraint_sentence": [
+    "You are no longer allowed to use #factor.lowercase.s#.",
+    "Complete the task using only #descriptive_attribute.lowercase# materials.",
+    "You must incorporate a #nature.lowercase# into the final design.",
+    "The solution must be easily explainable to a dog.",
+    "Design the #process.lowercase# so it can be executed in complete darkness."
+  ],
+  "repetition_sentence": [
+    "Repeat the last action 100 times.",
+    "Find a pattern in the #process.lowercase#. Break it with a stutter.",
+    "Loop the #factor.lowercase# until it loses all meaning.",
+    "Create an infinite loop of #relation.lowercase.s#."
+  ],
+  "sense": [
+    "sound",
+    "flavor",
+    "texture",
+    "color",
+    "smell",
+    "landscape",
+    "movement"
   ],
   "factor": [
     "#attribute#",
@@ -88,7 +226,16 @@
     "power source",
     "tool",
     "call to action",
-    "#bottleneck#"
+    "#bottleneck#",
+    "constraint",
+    "friction",
+    "incentive",
+    "habit",
+    "boundary",
+    "default",
+    "failure mode",
+    "artifact",
+    "medium"
   ],
   "attribute": [
     "descriptive attribute (#descriptive_attribute#, #descriptive_attribute#, #descriptive_attribute#...)",
@@ -107,7 +254,15 @@
     "taste",
     "odor",
     "space",
-    "density"
+    "density",
+    "rhythm",
+    "scale",
+    "weight",
+    "temperature",
+    "momentum",
+    "fragility",
+    "transparency",
+    "tension"
   ],
   "people": [
     "lead",
@@ -118,7 +273,16 @@
     "hero",
     "villain",
     "others",
-    "yourself"
+    "yourself",
+    "a stranger",
+    "your worst enemy",
+    "a historian 500 years from now",
+    "a jury",
+    "an alien",
+    "a committee of children",
+    "a ghost",
+    "an accountant",
+    "a saboteur"
   ],
   "purpose": [
     "purpose",
@@ -261,7 +425,17 @@
     "chemistry",
     "anthropology",
     "city planning",
-    "architecture"
+    "architecture",
+    "alchemy",
+    "cartography",
+    "cryptography",
+    "mythology",
+    "forestry",
+    "culinary arts",
+    "gambling",
+    "meteorology",
+    "epidemiology",
+    "magic tricks"
   ],
   "nature": [
     "seed",
@@ -286,6 +460,14 @@
     "keystone species",
     "surge strategy",
     "selection pressure",
-    "r-selection/k-selection"
+    "r-selection/k-selection",
+    "mycelium",
+    "murmurations",
+    "erosion",
+    "gravity",
+    "parasitism",
+    "hibernation",
+    "camouflage",
+    "contagion"
   ]
 }
